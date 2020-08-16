@@ -4,4 +4,4 @@
 # The-Maiden-Ghost
  Text Base Game Prototype
  
- <img src="https://raw.githubusercontent.com/kursaterdogan/The-Maiden-Ghost/master/Screenshot/Screenshot%200.png" width="484" height="861">
+ <img src="https://raw.githubusercontent.com/kursaterdogan/The-Maiden-Ghost/master/Screenshot/Screenshot%200.png" width="242" height="430">
