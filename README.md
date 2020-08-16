@@ -1,2 +1,2 @@
 # The-Maiden-Ghost
- Text-Base-Game-Prototype
+ Text Base Game Prototype
