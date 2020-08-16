@@ -1,4 +1,4 @@
-[![HitCount](http://hits.dwyl.com/kursaterdogan/The-Maiden-Ghost.svg)](http://hits.dwyl.com/kursaterdogan/The-Maiden-Ghost)
+[![HitCount](http://hits.dwyl.com/kursaterdogan/The-Maiden-Ghost.svg)]
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 # The-Maiden-Ghost
