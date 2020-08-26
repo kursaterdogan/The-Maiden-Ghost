@@ -1,13 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [CreateAssetMenu(menuName = "State")]
 
 public class State : ScriptableObject
 {
-    [SerializeField] int left;
-    [SerializeField] int right;
+    [SerializeField] private int left;
+    [SerializeField] private int right;
 
     [TextArea(5, 15)] [SerializeField] string storyText;
 

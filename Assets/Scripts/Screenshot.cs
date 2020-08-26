@@ -1,17 +1,16 @@
 ﻿using UnityEngine;
 
-
 public class Screenshot : MonoBehaviour
 {
-    private int count;
+    private int _count;
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.A))
         {
-            ScreenCapture.CaptureScreenshot("Screenshot " + count.ToString() + ".png");
-            Debug.Log("Screenshot " + count.ToString());
-            count++;
+            ScreenCapture.CaptureScreenshot("Screenshot " + _count.ToString() + ".png");
+            Debug.Log("Screenshot " + _count.ToString());
+            _count++;
         }
     }
 }

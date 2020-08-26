@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 
 public class StateController : MonoBehaviour
@@ -10,19 +7,19 @@ public class StateController : MonoBehaviour
     [SerializeField] TextMeshProUGUI storyText;
     [SerializeField] State[] states;
 
-    private string title = "The Maiden Ghost";
+    private string _title = "The Maiden Ghost";
 
-    private int index;
+    private int _index;
 
     public void GoNext()
     {
-        TriggerState(states[index].GetRightIndex());
+        TriggerState(states[_index].GetRightIndex());
 
     }
 
     public void GoBack()
     {
-        TriggerState(states[index].GetLeftIndex());
+        TriggerState(states[_index].GetLeftIndex());
 
     }
 
@@ -30,11 +27,11 @@ public class StateController : MonoBehaviour
     {
         storyText.text = states[index].GetStateStory();
         if (index == 0)
-            titleText.text = title;
+            titleText.text = _title;
         else
             titleText.text = index.ToString();
 
-        this.index = index;
+        this._index = index;
 
     }
 
