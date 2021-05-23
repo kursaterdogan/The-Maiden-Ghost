@@ -31,7 +31,7 @@ public class StateController : MonoBehaviour
         else
             titleText.text = index.ToString();
 
-        this._index = index;
+        _index = index;
 
     }
 
