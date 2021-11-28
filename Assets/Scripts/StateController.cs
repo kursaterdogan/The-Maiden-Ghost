@@ -14,13 +14,11 @@ public class StateController : MonoBehaviour
     public void GoNext()
     {
         TriggerState(states[_index].GetRightIndex());
-
     }
 
     public void GoBack()
     {
         TriggerState(states[_index].GetLeftIndex());
-
     }
 
     private void TriggerState(int index)
@@ -32,7 +30,6 @@ public class StateController : MonoBehaviour
             titleText.text = index.ToString();
 
         _index = index;
-
     }
 
 }

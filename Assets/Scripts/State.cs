@@ -4,8 +4,8 @@
 
 public class State : ScriptableObject
 {
-    [SerializeField] private int left;
-    [SerializeField] private int right;
+    [SerializeField] private int leftIndex;
+    [SerializeField] private int rightIndex;
 
     [TextArea(5, 15)] [SerializeField] string storyText;
 
@@ -16,12 +16,12 @@ public class State : ScriptableObject
 
     public int GetLeftIndex()
     {
-        return left;
+        return leftIndex;
     }
 
     public int GetRightIndex()
     {
-        return right;
+        return rightIndex;
     }
 
 }
