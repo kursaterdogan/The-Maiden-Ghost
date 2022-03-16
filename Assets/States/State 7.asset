@@ -12,7 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75c31e880165cea478db286a493d68ff, type: 3}
   m_Name: State 7
   m_EditorClassIdentifier: 
-  left: 5
-  right: 6
-  current: 6
-  storyText: 'THE END:'
+  leftIndex: 5
+  rightIndex: 7
+  title: 6
+  story: '[THE MAIDEN:]
+
+
+    An old man who''s been born in a cradle of wood
+
+
+    Of
+    a tree that at least a hundred years stood
+
+
+    Cut by a boy who at heart was
+    still pure -
+
+
+    Might be my redeemer if he knew that he could...'

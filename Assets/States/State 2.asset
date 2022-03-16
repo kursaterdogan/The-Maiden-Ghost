@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75c31e880165cea478db286a493d68ff, type: 3}
   m_Name: State 2
   m_EditorClassIdentifier: 
-  left: 0
-  right: 2
-  current: 1
-  storyText: 'When through the air a voice did resound
+  leftIndex: 0
+  rightIndex: 2
+  title: 1
+  story: 'When through the air a voice did resound
+
 
     Beckoning the shepherd
     to rise from the ground'

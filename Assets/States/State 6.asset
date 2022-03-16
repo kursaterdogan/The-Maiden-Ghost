@@ -12,11 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75c31e880165cea478db286a493d68ff, type: 3}
   m_Name: State 6
   m_EditorClassIdentifier: 
-  left: 4
-  right: 6
-  current: 5
-  storyText: "The maiden:\r\nGo whither O shepherd!\r\nDon't sadden thine heart\r\nThou
-    canst not help me \n- not thou who thou art!\r\nAn old man who's been born in
-    a cradle of wood\r\nOf a tree that at least a hundred years stood\r\nCut by a
-    boy who at heart was still pure -\r\nMight be my redeemer if he knew that he
-    could..."
+  leftIndex: 4
+  rightIndex: 6
+  title: 5
+  story: "[THE MAIDEN:]\n\nGo whither O shepherd!\r\n\nDon't sadden thine heart\r\n\nThou
+    canst not help me - not thou who thou art!\r"

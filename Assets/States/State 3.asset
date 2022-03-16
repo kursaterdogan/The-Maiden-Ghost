@@ -12,12 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75c31e880165cea478db286a493d68ff, type: 3}
   m_Name: State 3
   m_EditorClassIdentifier: 
-  left: 1
-  right: 3
-  current: 2
-  storyText: 'The shepherd:
+  leftIndex: 1
+  rightIndex: 3
+  title: 2
+  story: '[THE SHEPHERD:]
+
 
     What sweet voice does sing in such a woebegone tone?
+
+    
 
     What
     maiden does wander the heather alone?'

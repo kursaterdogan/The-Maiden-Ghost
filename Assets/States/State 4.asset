@@ -12,21 +12,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75c31e880165cea478db286a493d68ff, type: 3}
   m_Name: State 4
   m_EditorClassIdentifier: 
-  left: 2
-  right: 4
-  current: 3
-  storyText: 'Bewitched by its tone
+  leftIndex: 2
+  rightIndex: 4
+  title: 3
+  story: 'Bewitched by its tone
+
 
     He followed her song
+
 
     Whilst the sun
     did descend
 
+
     And the shadows grew long
+
 
     In the dim light of dusk
 
+
     Near
     the sparkling cascade
+
 
     On a moss covered stone sat a crying young maid'

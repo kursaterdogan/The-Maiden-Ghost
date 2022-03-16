@@ -12,17 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75c31e880165cea478db286a493d68ff, type: 3}
   m_Name: State 1
   m_EditorClassIdentifier: 
-  left: 0
-  right: 1
-  current: 0
-  storyText: 'It was an eve in late summer
+  leftIndex: 0
+  rightIndex: 1
+  title: The Maiden Ghost
+  story: 'It was an eve in late summer
+
 
     Autumn was nigh
+
 
     Still a warm
     sun did colour the sky
 
+
     The meadows did shine in a strange golden light
+
 
     And
     vales did forth the soft haze of night'
