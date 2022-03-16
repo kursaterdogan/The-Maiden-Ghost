@@ -1,18 +1,13 @@
 ﻿using UnityEngine;
 
 [CreateAssetMenu(menuName = "State")]
-
 public class State : ScriptableObject
 {
     [SerializeField] private int leftIndex;
     [SerializeField] private int rightIndex;
 
-    [TextArea(5, 15)] [SerializeField] string storyText;
-
-    public string GetStateStory()
-    {
-        return storyText;
-    }
+    [SerializeField] private string title;
+    [TextArea(5, 15)] [SerializeField] private string story;
 
     public int GetLeftIndex()
     {
@@ -24,4 +19,13 @@ public class State : ScriptableObject
         return rightIndex;
     }
 
+    public string GetTitle()
+    {
+        return title;
+    }
+
+    public string GetStateStory()
+    {
+        return story;
+    }
 }
