@@ -43,8 +43,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d3551f90a1e4074e96391173490166d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  titleText: {fileID: 0}
-  storyText: {fileID: 0}
   states:
   - {fileID: 11400000, guid: fb28b8fa61927314b82e496cb5e73522, type: 2}
   - {fileID: 11400000, guid: dd5c132827b8e864486ca9a8a5c531d4, type: 2}
@@ -53,3 +51,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2f98061db7fa2264c8b29c273550dc79, type: 2}
   - {fileID: 11400000, guid: 188f89c0f0f850d40b5657d6f18e170e, type: 2}
   - {fileID: 11400000, guid: d5f491f229fec3348a68ea13d91b62a0, type: 2}
+  - {fileID: 11400000, guid: 4c7888a6623f656439cc5d904777a79d, type: 2}
+  titleText: {fileID: 0}
+  storyText: {fileID: 0}
