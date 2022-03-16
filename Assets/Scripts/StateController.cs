@@ -1,35 +1,44 @@
-﻿using TMPro;
-using UnityEngine;
+﻿using UnityEngine;
+using TMPro;
 
 public class StateController : MonoBehaviour
 {
-    [SerializeField] TextMeshProUGUI titleText;
-    [SerializeField] TextMeshProUGUI storyText;
-    [SerializeField] State[] states;
+    [SerializeField] private State[] states;
 
-    private string _title = "The Maiden Ghost";
+    [SerializeField] private TextMeshProUGUI titleText;
+    [SerializeField] private TextMeshProUGUI storyText;
 
     private int _index;
 
-    public void GoNext()
+    void Start()
     {
-        TriggerState(states[_index].GetRightIndex());
+        SetDefaultState();
     }
 
-    public void GoBack()
+    public void GoLeft()
     {
-        TriggerState(states[_index].GetLeftIndex());
+        var index = states[_index].GetLeftIndex();
+        TriggerState(index);
+    }
+
+    public void GoRight()
+    {
+        var index = states[_index].GetRightIndex();
+        TriggerState(index);
     }
 
     private void TriggerState(int index)
     {
-        storyText.text = states[index].GetStateStory();
-        if (index == 0)
-            titleText.text = _title;
-        else
-            titleText.text = index.ToString();
+        var state = states[index];
+
+        storyText.text = state.GetStateStory();
+        titleText.text = state.GetTitle();
 
         _index = index;
     }
 
+    private void SetDefaultState()
+    {
+        TriggerState(_index);
+    }
 }
