@@ -24,7 +24,7 @@ public class State : ScriptableObject
         return title;
     }
 
-    public string GetStateStory()
+    public string GetStory()
     {
         return story;
     }
