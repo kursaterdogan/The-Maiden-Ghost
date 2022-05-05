@@ -31,8 +31,8 @@ public class StateController : MonoBehaviour
     {
         var state = states[index];
 
-        storyText.text = state.GetStateStory();
         titleText.text = state.GetTitle();
+        storyText.text = state.GetStory();
 
         _index = index;
     }
